@@ -29,12 +29,13 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String hello(){
-        User user = userRepository.getOne(1L);
+//        User user = userRepository.getOne(1L);
 //        User userOne = userRepository.findOne(1L);
 //        User user = userRepository.findUserByUserName("dl"+2);
 //        return user.getAddress();
-        System.out.println(userRepository.findAll().size());
-        return userRepository.findUserByUserName("ss"+3).getAddress();
+//        System.out.println(userRepository.findAll().size());
+//        return userRepository.findUserByUserName("ss"+3).getAddress();
+        return null;
     }
 
 }
